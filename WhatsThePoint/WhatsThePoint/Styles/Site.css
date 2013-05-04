@@ -1,11 +1,11 @@
 ﻿/* DEFAULTS
 ----------------------------------------------------------*/
 
-body   
+body
 {
-    background: #000000;
+    background: #808080;
     font-size: .80em;
-    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    font-family: "Helvetica Neue" , "Lucida Grande" , "Segoe UI" , Arial, Helvetica, Verdana, sans-serif;
     margin: 0px;
     padding: 0px;
     color: #696969;
@@ -13,7 +13,7 @@ body
 
 a:link, a:visited
 {
-    color: #034af3;
+    color: #039FF3;
 }
 
 a:hover
@@ -29,7 +29,7 @@ a:active
 
 p
 {
-    margin-bottom: 10px;
+    margin-bottom: 7px;
     line-height: 1.6em;
 }
 
@@ -40,7 +40,7 @@ p
 h1, h2, h3, h4, h5, h6
 {
     font-size: 1.5em;
-    color: #666666;
+    color: #999999;
     font-variant: small-caps;
     text-transform: none;
     font-weight: 200;
@@ -89,10 +89,12 @@ first child of the left and right table columns */
 
 .page
 {
+    position: relative;
     width: 960px;
-    background-color: #fff;
-    margin: 20px auto 0px auto;
-    border: 1px solid #496077;
+    background-color: #DDCCCC;
+    margin: 0px auto 0px auto;
+    border: 5px solid #666666;
+    padding-right: 5px;
 }
 
 .header
@@ -100,8 +102,9 @@ first child of the left and right table columns */
     position: relative;
     margin: 0px;
     padding: 0px;
-    background: #4b6c9e;
+    background: #6B4141;
     width: 100%;
+    border: 3px outset #E7E7E7;
 }
 
 .header h1
@@ -109,7 +112,7 @@ first child of the left and right table columns */
     font-weight: 700;
     margin: 0px;
     padding: 0px 0px 0px 20px;
-    color: #f9f9f9;
+    color: #E7E7E7;
     border: none;
     line-height: 2em;
     font-size: 2em;
@@ -132,7 +135,7 @@ first child of the left and right table columns */
 
 .footer
 {
-    color: #4e5766;
+    color: #808080;
     padding: 8px 0px 0px 0px;
     margin: 0px auto;
     text-align: center;
@@ -248,7 +251,6 @@ div.accountInfo
 .title
 {
     display: block;
-    float: left;
     text-align: left;
     width: auto;
 }

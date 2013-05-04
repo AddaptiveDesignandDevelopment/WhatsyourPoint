@@ -58,7 +58,6 @@
     <Content Include="Account\Register.aspx" />
     <Content Include="README.txt" />
     <Content Include="Styles\Site.css" />
-    <Content Include="Styles\SiteBAK.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />

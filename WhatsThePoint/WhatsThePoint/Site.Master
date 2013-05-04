@@ -11,12 +11,6 @@
 <body>
     <form runat="server">
     <div class="page">
-        <div class="header">
-            <div class="title">
-                <h1>
-                    Future Home of &quot;what&#39;s your point?&quot;
-                </h1>
-            </div>
             <%--<div class="loginDisplay">
                 <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
                     <AnonymousTemplate>
@@ -28,7 +22,7 @@
                     </LoggedInTemplate>
                 </asp:LoginView>
             </div>--%>
-<%--            <div class="clear hideSkiplink">
+            <%--<div class="clear hideSkiplink">
                 <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
                     <Items>
                         <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
@@ -36,6 +30,12 @@
                     </Items>
                 </asp:Menu>
             </div>--%>
+            <div class="header">
+            <div class="title">
+                <h1>
+                    Future Home of &quot;what&#39;s your point?&quot;
+                </h1>
+            </div>
         </div>
         <div class="main">
             <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
@@ -44,7 +44,6 @@
         </div>
     </div>
     <div class="footer">
-        
     </div>
     </form>
 </body>
