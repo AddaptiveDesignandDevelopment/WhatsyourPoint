@@ -24,6 +24,6 @@
     hotkey group. </p>
     <hr />
     <h2>So what good is that?</h2>
-    <p>The whole point of this is the construction of this final flow chart that will show the progression of ideas and research and most
-    importantly, show how different pieces are all connected back to the main point.</p>
+    <p>The whole point of this is the construction of this final flow chart that will show the progression of ideas and research, providing
+    an easy reference without navigating my browser bookmarks, and most importantly, show how different pieces are all connected back to the main point.</p>
 </asp:Content>
